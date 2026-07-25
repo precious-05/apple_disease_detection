@@ -1,6 +1,6 @@
 # Apple Disease Detection using Deep Learning
 
-A comprehensive deep learning solution for automated detection and classification of apple leaf diseases using transfer learning with MobileNetV2. This project achieves high accuracy in identifying four distinct apple disease categories: Normal, Scab, Blotch, and Rot.
+A comprehensive deep learning solution for automated detection and classification of apple leaf diseases using transfer learning with MobileNetV2. This project achieves high accuracy in identifying various apple leaf diseases.
 
 ---
 
@@ -21,7 +21,7 @@ A comprehensive deep learning solution for automated detection and classificatio
 
 ## Overview
 
-Apple leaf diseases pose significant threats to crop yields and agricultural productivity. Early and accurate detection is crucial for timely intervention and disease management. This project leverages deep learning to automate the classification process, achieving robust performance across multiple disease categories.
+Apple leaf diseases pose significant threats to crop yields and agricultural productivity. Early and accurate detection is crucial for timely intervention and disease management. This project leverages deep learning to provide automated, accurate disease classification.
 
 **Project Highlights:**
 - Implements transfer learning using MobileNetV2
@@ -35,8 +35,6 @@ Apple leaf diseases pose significant threats to crop yields and agricultural pro
 ## Dataset
 
 ### Data Distribution
-
-![Dataset Distribution](images/dataset_distribution.png)
 
 **Dataset Composition:**
 
@@ -75,8 +73,6 @@ Apple leaf diseases pose significant threats to crop yields and agricultural pro
 ---
 
 ## Model Architecture
-
-![Model Architecture](images/model_architecture.png)
 
 ### Architecture Overview
 
@@ -129,8 +125,6 @@ Output: Disease Classification (4 classes)
 
 ### Training Performance Curves
 
-![Training Performance](images/training_performance.png)
-
 **Observed Patterns:**
 - Training accuracy reaches ~97% by epoch 50
 - Validation accuracy stabilizes at ~93%
@@ -139,8 +133,6 @@ Output: Disease Classification (4 classes)
 - Validation loss plateaus around ~0.25
 
 ### Classification Results
-
-![Classification Metrics](images/classification_metrics.png)
 
 **Per-Class Performance on Test Set:**
 
@@ -154,8 +146,6 @@ Output: Disease Classification (4 classes)
 
 ### Confusion Matrix Analysis
 
-![Confusion Matrix](images/confusion_matrix.png)
-
 **Insights:**
 - High diagonal values indicate strong classification accuracy
 - Most confusion occurs between Scab and Blotch classes (visually similar)
@@ -163,8 +153,6 @@ Output: Disease Classification (4 classes)
 - Rot disease has the highest recall (92%)
 
 ### Per-Class Accuracy
-
-![Per-Class Accuracy](images/per_class_accuracy.png)
 
 **Key Observations:**
 - Normal Apple: 92% - Clearly distinguishable from diseased samples
